@@ -1,0 +1,73 @@
+.signup {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #444;
+  animation: showing 0.5s;
+}
+
+@keyframes showing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.signup > h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.signup > input {
+  margin-bottom: 15px;
+  max-width: 20rem;
+  border: 1px solid #444;
+  color: #444;
+  padding: 7px 15px;
+  font-size: 1em;
+  font-weight: 600;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.signup > input:focus {
+  border-color: orange;
+}
+
+.signup > p {
+  font-weight: bold;
+}
+
+.signup > p > span {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
+.signup > p > span:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.signup > button {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 10rem;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  transition: 0.3s ease;
+}
+
+.signup button:hover {
+  transform: scale(1.03);
+}

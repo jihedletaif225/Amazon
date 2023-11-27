@@ -1,0 +1,33 @@
+.profile {
+  padding: 60px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+}
+
+.profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile button {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: rgb(238, 27, 27);
+  border: 2px solid rgb(238, 27, 27);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.profile button:hover {
+  background-color: #fff;
+  color: rgb(238, 27, 27);
+}

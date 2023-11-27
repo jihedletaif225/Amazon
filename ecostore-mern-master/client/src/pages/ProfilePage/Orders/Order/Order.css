@@ -1,0 +1,41 @@
+.orders-order {
+  height: 100%;
+  width: 100%;
+  color: #444;
+}
+
+.orders-order-prods {
+  width: 100%;
+  height: 80%;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.orders-order-prods-prod {
+  color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.orders-order-prods-prod h3 {
+  margin-bottom: 10px;
+}
+
+.orders-order-prods-prod img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+}
+/*======= Bottom section =======*/
+.orders-order-bottom {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}

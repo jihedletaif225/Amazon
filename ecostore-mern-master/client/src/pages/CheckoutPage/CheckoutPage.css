@@ -1,0 +1,78 @@
+.checkout-page {
+  width: 100%;
+  height: calc(100vh - 5rem);
+}
+
+.checkout-page form {
+  color: #444;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-page form h2 {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.checkout-page form div {
+  margin-bottom: 15px;
+}
+
+.checkout-page form div input {
+  outline: none;
+  max-width: 300px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #444;
+  transition: 0.3s ease;
+  border: 2px solid white;
+}
+
+.checkout-page form div input:hover {
+  border: 2px solid #444;
+}
+
+.checkout-page form div select {
+  background-color: white;
+  outline: none;
+  max-width: 300px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #444;
+  margin-right: 15px;
+  padding: 15px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+.checkout-page form div select:hover {
+  border: 2px solid #444;
+}
+.checkout-page form div input:first-child {
+  margin-right: 15px;
+}
+
+.checkout-page form button {
+  border-radius: 7px;
+  border: 2px solid #444;
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
+  margin: 15px auto;
+  transition: 0.3s ease;
+}
+
+.checkout-page form button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #444;
+}

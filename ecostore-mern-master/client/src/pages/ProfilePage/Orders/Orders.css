@@ -1,0 +1,39 @@
+.orders {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.orders .order {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.orders .order p {
+  font-weight: bold;
+  color: #444;
+  margin: 5px 0px;
+}
+
+.orders .order button {
+  padding: 7px 15px;
+  margin-top: 10px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background-color: #444;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.orders .order button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #444;
+}

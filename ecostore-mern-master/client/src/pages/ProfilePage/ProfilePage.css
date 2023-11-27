@@ -1,0 +1,30 @@
+.profile-page {
+  height: calc(100vh - 5rem);
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-profile-nav {
+  list-style: none;
+  height: 100%;
+  width: 15rem;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.left-profile-nav li {
+  margin-top: 20px;
+}
+
+.left-profile-nav li a {
+  display: flex;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+.left-profile-nav li a:hover {
+  color: orange;
+}

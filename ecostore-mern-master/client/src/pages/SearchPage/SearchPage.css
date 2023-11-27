@@ -1,0 +1,30 @@
+.search-page {
+  width: 100%;
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  color: #444;
+}
+
+.search-product {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.search-product h3 {
+  margin-bottom: 10px;
+}
+
+.search-product img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.search-product p {
+  margin-bottom: 15px;
+}

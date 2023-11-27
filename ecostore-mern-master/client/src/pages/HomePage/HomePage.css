@@ -1,0 +1,63 @@
+.homepage {
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 100px 30px;
+}
+
+.homepage .homepage-animation {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.homepage .homepage-animation div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage .homepage-animation div h1 {
+  width: 500px;
+  color: #444;
+}
+
+.homepage .homepage-animation div img {
+  width: 500px;
+}
+/*=======Handle home page Products=======*/
+.homepage .homepage-products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.homepage-products .category-box {
+  position: relative;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  height: 350px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.homepage-products .category-box:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.homepage-products .category-box > h3 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.homepage-products .category-box > img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+
+.homepage-products .category-box > p {
+  margin-top: 10px;
+  position: absolute;
+}
